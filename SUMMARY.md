@@ -11,7 +11,6 @@
 ## Introduction Project
 
 * [Introduction Project](introduction-project/introduction-project.md)
-* [Part 1 - Mechanical Assembly](introduction-project/part-1-mechanical-assembly.md)
-* [Part 2 - Electrical Assembly](introduction-project/part-2-electrical-assembly.md)
+* [Part 1 - Electrical Assembly](introduction-project/part-2-electrical-assembly.md)
 * [Q & A](introduction-project/q-and-a.md)
 

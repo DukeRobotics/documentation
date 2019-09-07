@@ -8,19 +8,21 @@ description: Summary of the introductory project for the Duke Robotics Club
 
 Welcome to the introductory project for the Duke Robotics Club! This is an interdisciplinary project that will require collaboration between members in all teams. The idea is to build, from scratch, a mini bot capable of moving around, as well as reacting to the environment using a camera. It will involve mechanical work to design and manufacture a chassis, electrical work to put together all of the components, as well as CS work to actually program the bot.
 
+### Directions
+
+The goal of this project is to teach critical thinking and problem solving. This means that you may need to take initiative and look things up, read documentation for certain details, etc. You will be given a goal and some instructions, and expected to problem solve from there.
+
 ### Steps
 
-Part 1: Assemble the base chassis. This will eventually be replaced by better chassis designed by the mechanical team.
+Part 1: Assemble electronics. This will involve wiring together all the electronics.
 
-Part 2: Assemble electronics. This will involve wiring together all the electronics.
+Part 2: Basic Movement. Start controlling the motors and wheel to move the robot.
 
-Part 3: Basic Movement. Start controlling the motors and wheel to move the robot.
+Part 3: Learn some basic computer vision to track a ball.
 
-Part 4: Learn some basic computer vision to track a ball.
+Part 4: Integrate parts 3 and 4 to get the robot to always point towards the ball.
 
-Part 5: Integrate parts 3 and 4 to get the robot to always point towards the ball.
-
-Part 6: Program the robot to stay a constant distance from the ball \(while facing it\).
+Part 5: Program the robot to stay a constant distance from the ball \(while facing it\).
 
 ### Disclaimer
 
