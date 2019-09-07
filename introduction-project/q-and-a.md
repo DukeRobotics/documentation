@@ -1,3 +1,7 @@
+---
+description: A collection of common problems to facilitate debugging
+---
+
 # Q & A
 
 Entry format:
