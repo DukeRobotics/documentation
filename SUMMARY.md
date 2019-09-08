@@ -12,5 +12,6 @@
 
 * [Introduction Project](introduction-project/introduction-project.md)
 * [Part 1 - Electrical Assembly](introduction-project/part-2-electrical-assembly.md)
+* [Part 2 - Basic Movement](introduction-project/part-2-basic-movement.md)
 * [Q & A](introduction-project/q-and-a.md)
 
