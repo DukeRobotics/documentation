@@ -13,12 +13,14 @@ Now that we have a robot, we can start to program it. This will involve writing 
 
 ## Tasks
 
-1. Find a resource that explains how to use GPIO pins on the raspberry pi in python.
-2. Make an LED blink 2 times a second.
+1. Flash your SD card
+   * Use the most recent image here: [https://downloads.ubiquityrobotics.com/pi.html](https://downloads.ubiquityrobotics.com/pi.html)
+2. Find a resource that explains how to use GPIO pins on the raspberry pi in python.
+3. Make an LED blink 2 times a second.
    * Use a 220 Ohm resistor
-3. Read about Pulse Width Modulation.
-4. Figure out how to do PWM on the raspberry pi.
-5. Make the motor turn.
-6. Make the robot move forwards.
-7. Make the robot move in a square.
+4. Read about Pulse Width Modulation.
+5. Figure out how to do PWM on the raspberry pi.
+6. Make the motor turn.
+7. Make the robot move forwards.
+8. Make the robot move in a square.
 
