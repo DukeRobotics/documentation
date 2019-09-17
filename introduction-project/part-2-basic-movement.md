@@ -26,7 +26,7 @@ Now that we have a robot, we can start to program it. This will involve writing 
 
 ### Notes
 
-Pins for test sd card:
+GPIO pins for test sd card:
 
 Direction pin pairs: \(22, 23\), \(6, 12\)
 
