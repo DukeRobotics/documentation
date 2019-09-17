@@ -24,3 +24,11 @@ Now that we have a robot, we can start to program it. This will involve writing 
 7. Make the robot move forwards.
 8. Make the robot move in a square.
 
+### Notes
+
+Pins for test sd card:
+
+Direction pin pairs: \(22, 23\), \(6, 12\)
+
+PWM pins: 13, 18
+
