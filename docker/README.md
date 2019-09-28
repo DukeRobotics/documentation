@@ -29,7 +29,14 @@ docker pull dukerobotics/robosub-ros
     docker run -td -p 2200:2200 dukerobotics/robosub-ros
     ```
 
-3. Connect to the container. 
+3. Connect to the container using ssh.
+
+    a. If on PC, download [MobaXterm](https://mobaxterm.mobatek.net/)
+  
+    b. If on Mac, download [xquartz](https://www.xquartz.org/)
+    
+    c. Connect
+    
     * Local container
     ```bash
     ssh -XY -p 2200 duke@localhost
