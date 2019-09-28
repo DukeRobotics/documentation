@@ -1,7 +1,3 @@
----
-description: Collection of solved problems for future reference
----
-
 # Q & A
 
 This is the Duke Robotics Q&A Page. It contains problems that we have run in to, their causes, as well as how to fix them.
