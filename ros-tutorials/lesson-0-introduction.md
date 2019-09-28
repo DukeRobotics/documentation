@@ -1,7 +1,3 @@
----
-description: Introduction
----
-
 # Lesson 0 - Introduction
 
 The following set of tutorials will introduce you to Robot Operating System \(ROS\). They will provide a framework of goals and a listing of resources you may use to achieve these goals.
