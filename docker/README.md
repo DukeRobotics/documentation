@@ -1,4 +1,6 @@
-## Running
+# Docker Intro
+
+Instructions on how to use duke robotics' docker image. Docker must already be installed.
 
 1. Get the image
 ```bash
