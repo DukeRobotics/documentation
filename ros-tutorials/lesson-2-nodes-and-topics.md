@@ -25,5 +25,7 @@ This lessin will teach you about what ros nodes are, what topics are, and how th
 
 ## Resources
 [Nodes](http://wiki.ros.org/ROS/Tutorials/UnderstandingNodes)
+
 [Topics](http://wiki.ros.org/ROS/Tutorials/UnderstandingTopics)
+
 [turtlesim](http://wiki.ros.org/turtlesim)
