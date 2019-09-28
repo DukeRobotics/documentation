@@ -22,6 +22,12 @@ docker pull dukerobotics/robosub-ros
     ```bash
     docker run -td --privileged --net=host --mount type=bind,source=/home/robot/robosub-ros/src,target=/home/duke/dev/robosub-ros/catkin_ws/src  dukerobotics/robosub-ros
     ```
+    
+If you do not need to mount code, do not include the --mount portion.
+    * Mac / Linux / Windows
+    ```bash
+    docker run -td -p 2200:2200 dukerobotics/robosub-ros
+    ```
 
 3. Connect to the container. 
     * Local container
