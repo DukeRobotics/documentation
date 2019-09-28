@@ -13,17 +13,18 @@ This lesson will teach you about what ros nodes are, what topics are, and how th
 ## Goals
 1. Run the turtlesim node.
 2. Be able to control the turtle with the arrow keys.
-3. List running nodes.
-4. Print information about a node.
-5. List topics.
-6. See what nodes are publishing to a topic.
-7. Use rqt_graph
-8. Print out the message type of a topic.
-9. Print out everything being sent on a topic.
-10. Make the turtle move without using the teleop node.
-    - Hint: publish to a topic yourself
-11. Use rqt_plot
+3. Use rqt_plot
     - Try looking at it while the turtle is moving
+4. List running nodes.
+5. Print information about a node.
+6. List topics.
+7. See what nodes are publishing to a topic.
+8. Use rqt_graph
+9. Print out the message type of a topic.
+10. Print out everything being sent on a topic.
+11. Make the turtle move without using the teleop node.
+    - Hint: publish to a topic yourself
+
 
 ## Resources
 [Nodes](http://wiki.ros.org/ROS/Tutorials/UnderstandingNodes)
