@@ -21,7 +21,7 @@ This lesson will teach you about what ros nodes are, what topics are, and how th
 8. Print out the message type of a topic.
 9. Print out everything being sent on a topic.
 10. Make the turtle move without using the teleop node.
-  - Hint: publish to a topic yourself
+    - Hint: publish to a topic yourself
 
 ## Resources
 [Nodes](http://wiki.ros.org/ROS/Tutorials/UnderstandingNodes)
