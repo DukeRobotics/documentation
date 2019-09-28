@@ -32,6 +32,7 @@ docker pull dukerobotics/robosub-ros
     ```bash
     ssh -XY -p 2200 duke@192.168.1.1
     ```
+    * The password is 'robotics'
 
 #### Run a container notes
 * -t
