@@ -10,17 +10,22 @@ The goal of this project is to teach critical thinking and problem solving. This
 
 ### Steps
 
-[Part 1: Assemble electronics.](part-1-electrical-assembly.md) This will involve wiring together all the electronics.
+[Part 1: Assemble electronics](part-1-electrical-assembly.md)
+* This will involve wiring together all the electronics.
 
-[Part 2: Basic Movement.](part-2-basic-movement.md) Start controlling the motors and wheel to move the robot.
+[Part 2: Basic Movement](part-2-basic-movement.md)
+* Start controlling the motors and wheel to move the robot.
 
-Part 3: Learn some basic computer vision to track a ball.
+Part 3: Computer Vision
+* Learn some basic computer vision to track a ball.
+* (TODO)
+
+Part 4: Integration 1
+* Integrate parts 3 and 4 to get the robot to always point towards the ball.
 (TODO)
 
-Part 4: Integrate parts 3 and 4 to get the robot to always point towards the ball.
-(TODO)
-
-Part 5: Program the robot to stay a constant distance from the ball \(while facing it\).
+Part 5: Integration 2
+* Program the robot to stay a constant distance from the ball (while facing it).
 (TODO)
 
 ### Disclaimer
