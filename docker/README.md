@@ -30,7 +30,7 @@ docker pull dukerobotics/robosub-ros
     ```
     * Remote (on robot) container 
     ```bash
-    ssh -XY -p 2200 duke@192.168.1.1
+    ssh -XY -p 2200 robot@192.168.1.1
     ```
 
 #### Run a container notes
