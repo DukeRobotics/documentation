@@ -19,4 +19,10 @@ Now follow the instructions here to use the duke robotics docker image. Ignore t
 
 [Docker Intro](../docker/README.md)
 
+For step 2, use this code:
+
+```bash
+    docker run -td -p 2200:2200 dukerobotics/robosub-ros
+    ```
+
 Once you have followed these instrutions, you will be ssh'd into an environment inside your computer, that is isolated from the rest of your computer. This environment has ROS installed for you, and whenever you are running ROS you should be in this environment.
