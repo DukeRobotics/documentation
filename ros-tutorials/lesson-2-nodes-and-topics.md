@@ -1,7 +1,7 @@
 # Lesson 2 - Nodes and Topics
 
 ## Summary
-This lessin will teach you about what ros nodes are, what topics are, and how they interact. By the end, you should be able to get information about nodes, and publish to topics yourself.
+This lesson will teach you about what ros nodes are, what topics are, and how they interact. By the end, you should be able to get information about nodes, and publish to topics yourself.
 
 ## Vocab
 - Node: A unit of software that has one job.
