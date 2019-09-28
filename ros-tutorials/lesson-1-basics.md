@@ -1,5 +1,8 @@
 # Lesson 1 - Basics
 
+## Summary
+This lesson will introduce you into the very basics of ROS. By the end, you will know how to start ROS and run the turtle simulation.
+
 ## Vocab
 - ROS: Robot Operating System, the software we are learning about
 - `roscore`: Command used to start ROS
