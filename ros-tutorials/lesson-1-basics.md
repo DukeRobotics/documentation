@@ -10,7 +10,7 @@ This lesson will introduce you into the very basics of ROS. By the end, you will
 
 ## Goals
 1. Start the roscore
-2. Display the Turtle
+2. Display the turtle simulation
 
 ## Resources
 - [Understanding ROS Nodes](http://wiki.ros.org/ROS/Tutorials/UnderstandingNodes)
