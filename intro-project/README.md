@@ -1,7 +1,3 @@
----
-description: Summary of the introductory project for the Duke Robotics Club
----
-
 # Introduction Project
 
 ## Summary
