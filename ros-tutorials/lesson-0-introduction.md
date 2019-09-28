@@ -15,6 +15,6 @@ To learn more, follow along with the first (run commands etc.) and read through 
 
 [Docker Tutorials](https://docs.docker.com/get-started/)
 
-Now follow the instructions here to use the duke robotics docker image. Ignore the --mount portion of the run command.
+Now follow the instructions here to use the duke robotics docker image. Ignore the --mount and source portion of the run command.
 
-[Docker](../docker/README.md)
+[Docker Intro](../docker/README.md)
