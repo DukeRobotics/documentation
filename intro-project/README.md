@@ -16,9 +16,9 @@ The goal of this project is to teach critical thinking and problem solving. This
 
 [Part 3: Computer Vision](part-3-cv.md) (TODO)
 
-Part 4: Integration 1 (TODO)
+[Part 4: Integration 1](part-4-integration-1.md) (TODO)
 
-Part 5: Integration 2 (TODO)
+[Part 5: Integration 2](part-5-integration-2.md) (TODO)
 
 ### Disclaimer
 
