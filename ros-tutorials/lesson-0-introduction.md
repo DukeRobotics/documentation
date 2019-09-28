@@ -15,14 +15,8 @@ To learn more, follow along with the first (run commands etc.) and read through 
 
 [Docker Tutorials](https://docs.docker.com/get-started/)
 
-Now follow the instructions here to use the duke robotics docker image. Ignore the --mount and source portion of the run command. If on PC, download a program like [MobaXterm](https://mobaxterm.mobatek.net/) for the ssh portion.
+Now follow the instructions here to use the duke robotics docker image. Note that you do not need to mount any code.
 
 [Docker Intro](../docker/README.md)
 
-For step 2, use this code:
-
-```bash
-    docker run -td -p 2200:2200 dukerobotics/robosub-ros
- ```
-
-Once you have followed these instrutions, you will be ssh'd into an environment inside your computer, that is isolated from the rest of your computer. This environment has ROS installed for you, and whenever you are running ROS you should be in this environment.
+Once you have followed these instructions, you will be ssh'd into an environment inside your computer, that is isolated from the rest of your computer. This environment has ROS installed for you, and whenever you are running ROS you should be in this environment.
