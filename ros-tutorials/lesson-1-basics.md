@@ -15,3 +15,8 @@ This lesson will introduce you into the very basics of ROS. By the end, you will
 ## Resources
 - [Understanding ROS Nodes](http://wiki.ros.org/ROS/Tutorials/UnderstandingNodes)
 - [Turtlesim](http://wiki.ros.org/turtlesim)
+
+## Notes
+- Before running ros commands, you need to run `source /opt/ros/kinetic/setup.bash` inside the container. This will set up your environment to run ROS commands
+- The version of ROS you are using is kinetic
+- After running roscore, hit `ctrl-c` to exit the command
