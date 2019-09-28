@@ -17,11 +17,13 @@ This lesson will teach you about what ros nodes are, what topics are, and how th
 4. Print information about a node.
 5. List topics.
 6. See what nodes are publishing to a topic.
-7. Use rqt_plot
+7. Use rqt_graph
 8. Print out the message type of a topic.
 9. Print out everything being sent on a topic.
 10. Make the turtle move without using the teleop node.
     - Hint: publish to a topic yourself
+11. Use rqt_plot
+    - Try looking at it while the turtle is moving
 
 ## Resources
 [Nodes](http://wiki.ros.org/ROS/Tutorials/UnderstandingNodes)
