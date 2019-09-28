@@ -14,7 +14,7 @@ The goal of this project is to teach critical thinking and problem solving. This
 
 [Part 2: Basic Movement](part-2-basic-movement.md)
 
-Part 3: Computer Vision (TODO)
+[Part 3: Computer Vision](part-3-cv.md) (TODO)
 
 Part 4: Integration 1 (TODO)
 
