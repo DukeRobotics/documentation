@@ -4,3 +4,4 @@ The following tutorials will give you an introduction to ROS. Remember that the 
 
 * [Lesson 0 - Introduction](lesson-0-introduction.md)
 * [Lesson 1 - Basics](lesson-1-basics.md)
+* [Lesson 2 - Node and Topics](lesson-2-nodes-and-topics.md)
