@@ -9,7 +9,8 @@ Before continuing, if you have not used the command line before, complete this s
 To run ROS, we will be using Docker. This is a software that allows you to run programs inside an isolated environment. This means that you do not need to download anything but the docker client, and the particular image we will be using. First, download the appropriate docker client:
 
 * [Mac](https://docs.docker.com/docker-for-mac/install/)
-* [Windows](https://docs.docker.com/docker-for-windows/install/)
+* [Windows (Home)](https://docs.docker.com/toolbox/toolbox_install_windows/)
+* [Windows (Other)](https://docs.docker.com/docker-for-windows/install/)
 
 To learn more, follow along with the first (run commands etc.) and read through the second tutorial here:
 
