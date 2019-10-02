@@ -15,7 +15,9 @@ To learn more, follow along with the first (run commands etc.) and read through 
 
 [Docker Tutorials](https://docs.docker.com/get-started/)
 
-Now follow the instructions here to use the duke robotics docker image. Note that you do not need to mount any code.
+Now follow the instructions here to use the duke robotics docker image.
+
+**Note:** You do not need to mount any code.
 
 [Docker Intro](../docker/README.md)
 
