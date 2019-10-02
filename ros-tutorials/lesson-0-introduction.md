@@ -18,7 +18,7 @@ To learn more, go to the following link and
 
 [Docker Tutorials](https://docs.docker.com/get-started/)
 
-Now follow the instructions here to use the duke robotics docker image.
+Now follow the instructions below to use the duke robotics docker image.
 
 **Note:** You do not need to mount any code.
 
