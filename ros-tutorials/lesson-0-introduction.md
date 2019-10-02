@@ -12,11 +12,7 @@ To run ROS, we will be using Docker. This is a software that allows you to run p
 * [Windows (Home)](https://docs.docker.com/toolbox/toolbox_install_windows/)
 * [Windows (Other)](https://docs.docker.com/docker-for-windows/install/)
 
-To learn more, go to the following link and 
-1. Follow along with 1: Orientation (run commands etc.)
-2. Read through 2: Containers (do not worry about running everything, just make sure you understand what a Dockerfile is)
-
-[Docker Tutorials](https://docs.docker.com/get-started/)
+To learn more, read [this short tutorial](https://docs.docker.com/get-started/).
 
 Now follow the instructions below to use the duke robotics docker image.
 
