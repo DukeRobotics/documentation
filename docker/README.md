@@ -46,6 +46,10 @@ docker pull dukerobotics/robosub-ros
     ssh -XY -p 2200 duke@192.168.1.1
     ```
     * The password is 'robotics'
+    * **Note:** If you are using Windows Home, you should have installed docker toolbox. This means that the docker container is running inside a virtual machine instead of directly on your computer. Run `docker-machine ip` to get the ip address of the virtual machine, and ssh to that ip instead of localhost.
+    ```bash
+    ssh -XY -p 2200 duke@[your ip]
+    ```
 
 #### Run a container notes
 * -t
