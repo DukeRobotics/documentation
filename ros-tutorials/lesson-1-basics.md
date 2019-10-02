@@ -20,3 +20,4 @@ This lesson will introduce you into the very basics of ROS. By the end, you will
 - Before running ros commands, you need to run `source /opt/ros/kinetic/setup.bash` inside the container. This will set up your environment to run ROS commands, and has to be run in every new terminal
 - The version of ROS you are using is kinetic
 - After running roscore, hit `ctrl-c` to exit the command
+- Whenever you want to run ROS commands, you need to be in the container. This means that if you create a new terminal, you have to ssh into the docker container you are using
