@@ -9,4 +9,4 @@ and writing a node inside that package.
 
 ## Goals
 1. Create your own package
-  - Do not use `catkin_make`, use `catkin build`. See resources and notes for more details
+   - Do not use `catkin_make`, use `catkin build`. See resources and notes for more details
