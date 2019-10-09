@@ -11,10 +11,14 @@ and writing a node inside that package.
 ## Goals
 1. Create your own package
    - Do not use `catkin_make`, use `catkin build`. See resources and notes for more details
+2. Create a new node inside that package
+3. Write this node to make the turtle move in a square
+   - Hint: You will need to publish something somewhere
 
 ## Resources
 - https://catkin-tools.readthedocs.io/en/latest/index.html
 - http://wiki.ros.org/ROS/Tutorials/CreatingPackage
+- http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28python%29
 
 ## Notes
 - In the second tutorial, on the official ROS site, use it more as an explanation of packages rather than a
