@@ -1,5 +1,7 @@
 # Lesson 3 - Write a Node
 
+Reminder: Read the notes!
+
 ## Summary
 In this lesson you will write your own node to control the turtle. This will involve making your own package,
 and writing a node inside that package.
