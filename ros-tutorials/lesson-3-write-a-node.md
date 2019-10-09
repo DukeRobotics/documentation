@@ -6,7 +6,7 @@ and writing a node inside that package.
 
 ## Vocab
 - Package: A folder of nodes, messages, all related to some common goal or concept
-- catkin: The package managing system. This lets you create a workspace, create packages, manage packages, etc.
+- `catkin`: The package managing system. This lets you create a workspace, create packages, manage packages, etc.
 
 ## Goals
 1. Create your own package
@@ -17,7 +17,7 @@ and writing a node inside that package.
 - http://wiki.ros.org/ROS/Tutorials/CreatingPackage
 
 ## Notes
-- In the second tutorial, on the official ROS site, use it more as an explanation of packages. When
-creating your own, use the catkin_tools documentation. This means you should not be using commands
-like `catkin_create_pkg` and `catkin_make`.
+- In the second tutorial, on the official ROS site, use it more as an explanation of packages rather than a
+set of commands to follow. When creating your own workspace and package, use the catkin_tools documentation.
+This means you should not be using commands like `catkin_create_pkg` and `catkin_make`.
 - In the catkin_tools documentation, look at Quickstart for how to initialize a new workspace
