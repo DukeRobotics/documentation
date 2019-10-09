@@ -6,6 +6,7 @@ and writing a node inside that package.
 
 ## Vocab
 - Package: A folder of nodes, messages, all related to some common goal or concept
+- catkin: The package managing system. This lets you create a workspace, create packages, manage packages, etc.
 
 ## Goals
 1. Create your own package
