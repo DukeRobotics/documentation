@@ -18,13 +18,13 @@ and writing a node inside that package.
    - Hint: You will need to publish something somewhere
 
 ## Resources
-- https://catkin-tools.readthedocs.io/en/latest/index.html
 - http://wiki.ros.org/ROS/Tutorials/CreatingPackage
 - http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28python%29
+- https://catkin-tools.readthedocs.io/en/latest/index.html
 
 ## Notes
 - In the second tutorial, on the official ROS site, use it more as an explanation of packages rather than a
 set of commands to follow. When creating your own workspace and package, use the catkin_tools documentation.
 This means you should not be using commands like `catkin_create_pkg` and `catkin_make`.
 - In the catkin_tools documentation, look at Quickstart for how to initialize a new workspace
-- You will not be able to use the code in the third tutorial exactly as it is
+- You will not be able to use the code in the 'Publisher and Subscriber' tutorial exactly as it is
