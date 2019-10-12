@@ -13,7 +13,7 @@ To run ROS, we will be using Docker. This is a software that allows you to run p
 	* Start > type "PC Info" > note if you have Windows 10 Home, Pro, Education, etc. 
 	* [Windows (Home)](https://docs.docker.com/toolbox/toolbox_install_windows/)
 	* Windows (Other)
-		* Start > type in "Turn Windows features on or off" > check "Hyper-V" > OK > wait > restart.
+		* Start > type "Turn Windows features on or off" > check "Hyper-V" > OK > wait > restart.
 		* [Windows (Other)](https://docs.docker.com/docker-for-windows/install/) (you'll have to sign up)
 		* **Note:** During installation, make sure "Use Windows Containers" is *not* checked.
 
