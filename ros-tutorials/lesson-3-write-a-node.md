@@ -27,3 +27,4 @@ and writing a node inside that package.
 set of commands to follow. When creating your own workspace and package, use the catkin_tools documentation.
 This means you should not be using commands like `catkin_create_pkg` and `catkin_make`.
 - In the catkin_tools documentation, look at Quickstart for how to initialize a new workspace
+- You will not be able to use the code in the third tutorial exactly as it is
