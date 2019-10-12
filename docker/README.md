@@ -7,7 +7,7 @@ Instructions on how to use duke robotics' docker image. Docker must already be i
 docker pull dukerobotics/robosub-ros
 ```
 
-2. Run a container. Note that `source` must be given the full path to the `robosub-ros/src` folder on your system in order to work. Here are some examples for how the command can be run on different systems, replace the path to `robosub-ros/src` with whatever it is on your computer.
+2. Run a container.
 
 - *Without* mounting code
     * Mac / Linux / Windows
@@ -16,6 +16,7 @@ docker pull dukerobotics/robosub-ros
     ```
 
 - *With* mounting code (you need --mount)  
+    * Note that `source` must be given the full path to the `robosub-ros/src` folder on your system in order to work. Here are some examples for how the command can be run on different systems, replace the path to `robosub-ros/src` with whatever it is on your computer.
     * Windows
     ```bash
     docker run -td -p 2200:2200 --mount type=bind,source=C:\Users\Eric\Documents\Robotics\CS,target=/home/duke/dev/robosub-ros/src  dukerobotics/robosub-ros
