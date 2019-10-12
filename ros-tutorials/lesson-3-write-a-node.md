@@ -18,9 +18,9 @@ and writing a node inside that package.
    - Hint: You will need to publish something somewhere
 
 ## Resources
-- http://wiki.ros.org/ROS/Tutorials/CreatingPackage
-- http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28python%29
-- https://catkin-tools.readthedocs.io/en/latest/index.html
+- [Packages](http://wiki.ros.org/ROS/Tutorials/CreatingPackage)
+- [Publisher & Subscriber](http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28python%29)
+- [Catkin Tools](https://catkin-tools.readthedocs.io/en/latest/index.html)
 
 ## Notes
 - In the second tutorial, on the official ROS site, use it more as an explanation of packages rather than a
