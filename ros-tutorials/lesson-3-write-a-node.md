@@ -23,6 +23,7 @@ and writing a node inside that package.
 - [Catkin Tools](https://catkin-tools.readthedocs.io/en/latest/index.html)
 
 ## Notes
+- You may want to run the docker container using a mount command to save your files
 - In the second tutorial, on the official ROS site, use it more as an explanation of packages rather than a
 set of commands to follow. When creating your own workspace and package, use the catkin_tools documentation.
 This means you should not be using commands like `catkin_create_pkg` and `catkin_make`.
