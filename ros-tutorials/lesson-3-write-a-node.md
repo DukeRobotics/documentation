@@ -6,7 +6,7 @@ Reminder: Read the notes!
 In this lesson you will write your own node to control the turtle. This will involve making your own package,
 and writing a node inside that package. Moving forwards, you will need to program in Python. If you do not have
 experience coding, you will need to learn Python. Find a tutorial/course you like online, or pick one from
-[here](https://stackify.com/learn-python-tutorials/#post-21937-_u49dnodg9ai6) or [here](https://stackify.com/learn-python-tutorials/).
+[here](https://stackify.com/learn-python-tutorials/#post-21937-_u49dnodg9ai6) or [here](https://gitconnected.com/learn/python).
 
 ## Vocab
 - Package: A folder of nodes, messages, all related to some common goal or concept
