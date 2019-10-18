@@ -4,8 +4,8 @@ Reminder: Read the notes!
 
 ## Summary
 In this lesson you will write your own node to control the turtle. This will involve making your own package,
-and writing a node inside that package. Moving forwards, you will need to program in python. If you do not have
-experience coding, you will need to learn python. Find a tutorial/course you like online, or pick one from
+and writing a node inside that package. Moving forwards, you will need to program in Python. If you do not have
+experience coding, you will need to learn Python. Find a tutorial/course you like online, or pick one from
 [here](https://stackify.com/learn-python-tutorials/#post-21937-_u49dnodg9ai6) or [here](https://stackify.com/learn-python-tutorials/).
 
 ## Vocab
