@@ -4,11 +4,10 @@ Reminder: Read the notes!
 
 ## Summary
 In this lesson you will write your own node to control the turtle. This will involve making your own package,
-and writing a node inside that package. Moving forwards, you will need to program in Python. If you do not have
+and writing a node inside that package. Moving forward, you will need to program in Python. If you do not have
 experience coding, you will need to learn Python. Find a tutorial/course you like online, or pick one from
 [here](https://stackify.com/learn-python-tutorials/#post-21937-_u49dnodg9ai6) or [here](https://gitconnected.com/learn/python).
-If you have experience coding in another language feel free to proceed, Python is fairly easy to pick up if you
-have previous coding experience.
+If you have experience coding in another language, feel free to proceed as Python should be fairly easy for you to pick up.
 
 ## Vocab
 - Package: A folder of nodes, messages, all related to some common goal or concept
@@ -16,7 +15,7 @@ have previous coding experience.
 
 ## Goals
 1. Create your own package
-   - Do not use `catkin_make`, use `catkin build`. See resources and notes for more details
+   - Be sure to use the newer versions of catkin commands (see Catkin Tools below). For example, do not use `catkin_make`, use `catkin build`. Similarly, `catkin_create_pkg` becomes `catkin create pkg`.
 2. Create a new node inside that package
 3. Write this node to make the turtle move in a square
    - Hint: You will need to publish something somewhere
@@ -25,11 +24,8 @@ have previous coding experience.
 - [Packages](http://wiki.ros.org/ROS/Tutorials/CreatingPackage)
 - [Publisher & Subscriber](http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28python%29)
 - [Catkin Tools](https://catkin-tools.readthedocs.io/en/latest/index.html)
+   - [Quickstart](https://catkin-tools.readthedocs.io/en/latest/quick_start.html) to initialize new workspace
 
 ## Notes
-- You may want to run the docker container using a mount version of the `docker run` command to save your files
-- In the second tutorial, on the official ROS site, use it more as an explanation of packages rather than a
-set of commands to follow. When creating your own workspace and package, use the catkin_tools documentation.
-This means you should not be using commands like `catkin_create_pkg` and `catkin_make`.
-- In the catkin_tools documentation, look at Quickstart for how to initialize a new workspace
+- You may want to run the docker container using a mount version of the `docker run` command to save your files (remember the [Docker Intro](https://github.com/DukeRobotics/documentation/blob/master/docker/README.md))
 - You will not be able to use the code in the 'Publisher and Subscriber' tutorial exactly as it is
