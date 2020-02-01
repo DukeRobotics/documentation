@@ -1,6 +1,6 @@
 # Overview
 
-Documentation for tf2 with python is very limited, so this readme is intended to document the use of tf2 transforms for python 2.7 and provide some helpful resources.
+Documentation for tf2 with python is very limited, so this readme is intended to document and provide some helpful resources for tf2 transforms for python 2.7.
 
 # Simple transform
 
