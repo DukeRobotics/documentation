@@ -1,6 +1,6 @@
 # Overview
 
-[http://wiki.ros.org/tf2](tf2) is ROS's newest library for keeping track of robot transforms between coordinate frames. Documentation for tf2 with Python is very limited, so this README is intended to document the use of tf2 transforms for Python 2.7 and provide some helpful resources.
+[tf2](http://wiki.ros.org/tf2) is ROS's newest library for keeping track of robot transforms between coordinate frames. Documentation for tf2 with Python is very limited, so this README is intended to document the use of tf2 transforms for Python 2.7 and provide some helpful resources.
 
 # Simple transform
 
