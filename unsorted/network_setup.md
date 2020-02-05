@@ -25,7 +25,10 @@ wifi.scan-rand-mac-address=no
 - change network settings
   - click `edit connection` under network in tool bar
   - make sure `eth0` exists under Ethernet
-  - click into `eth0`, under `IPv6 Settings` tab, set `Method` to `Ignore`
+  - click into `eth0`
+    - under `IPv6 Settings` tab, set `Method` to `Ignore`
+    - under `General` tab, check `Automatically connect to this network when it is available` and  `All users may connect to this network`
+    - under `IPv4 Settings` tab, set `Method` to `Shared to other computers`
 - check ifconfig
   - see if `eth0` is running with correct ip address
 - set default network connection to `DukeVisitor` wifi
