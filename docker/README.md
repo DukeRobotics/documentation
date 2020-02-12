@@ -16,20 +16,20 @@ docker pull dukerobotics/robosub-ros
     ```
 
 - *With* mounting code (you need --mount)  
-    * Note that `source` must be given the full path to the `robosub-ros/src` folder on your system in order to work. Here are some examples for how the command can be run on different systems, replace the path to `robosub-ros/src` with whatever it is on your computer.
+    * Note that `source` must be given the full path to the `robosub-ros` folder on your system in order to work. Here are some examples for how the command can be run on different systems, replace the path to `robosub-ros` with whatever it is on your computer.
     * Windows
     ```bash
-    docker run -td -p 2200:2200 --mount type=bind,source=C:\Users\Eric\Documents\Robotics\CS,target=/home/duke/dev/robosub-ros/src  dukerobotics/robosub-ros
+    docker run -td -p 2200:2200 --mount type=bind,source=C:\Users\Eric\Documents\Robotics\CS\robosub-ros,target=/home/duke/dev/robosub-ros dukerobotics/robosub-ros
     ```
 
     * Mac
     ```bash
-    docker run -td -p 2200:2200 --mount type=bind,source=/Users/neil/Desktop/Code/robosub-ros/src,target=/home/duke/dev/robosub-ros/catkin_ws/src  dukerobotics/robosub-ros
+    docker run -td -p 2200:2200 --mount type=bind,source=/Users/neil/Desktop/Code/robosub-ros,target=/home/duke/dev/robosub-ros dukerobotics/robosub-ros
     ```
 
     * Linux (production)
     ```bash
-    docker run -td --privileged --net=host --mount type=bind,source=/home/robot/robosub-ros/src,target=/home/duke/dev/robosub-ros/catkin_ws/src  dukerobotics/robosub-ros
+    docker run -td --privileged --net=host --mount type=bind,source=/home/robot/robosub-ros,target=/home/duke/dev/robosub-ros  dukerobotics/robosub-ros
     ```
     
 
