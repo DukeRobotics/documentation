@@ -3,7 +3,7 @@ Network Setup between Router, DukeVisitor Wifi, and Computer(Ubuntu)
 - install ssh in Ubuntu
   - `sudo apt update`
   - `sudo apt install openssh-server`
-- create ethernet connection interface in `/etc/network/interfaces`, it may already exist
+- create ethernet connection interface file in `/etc/network` called `interfaces` so that `/etc/network/interfaces` exists with 
 `````
 source-directory /etc/network/interfaces.d
 #
@@ -37,22 +37,23 @@ wifi.scan-rand-mac-address=no
 - check ifconfig
   - see if `eth0` is running with correct ip address `192.168.1.1`
 - set default network connection to `DukeVisitor` wifi
-- change `/etc/network/interfaces` into
-`````
-source-directory /etc/network/interfaces.d
-#
-auto lo
-iface lo inet loopback
-`````
-- change `/etc/NetworkManager/NetworkManager.conf` into
-`````
-[main]
-plugins=ifupdown,keyfile
-[ifupdown]
-managed=false
-[device]
-wifi.scan-rand-mac-address=no
-`````
+- to prevent a new connection popping up upon reboot,
+  - change `/etc/network/interfaces` into
+  `````
+  source-directory /etc/network/interfaces.d
+  #
+  auto lo
+  iface lo inet loopback
+  `````
+  - and change `/etc/NetworkManager/NetworkManager.conf` into
+  `````
+  [main]
+  plugins=ifupdown,keyfile
+  [ifupdown]
+  managed=false
+  [device]
+  wifi.scan-rand-mac-address=no
+  `````
 - run `sudo service network-manager restart` 
 - run `sudo reboot`
 - check if wifi and eth0 are automatically connected after reboot
