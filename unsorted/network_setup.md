@@ -29,7 +29,7 @@ wifi.scan-rand-mac-address=no
 - run `sudo reboot`
 - change network settings
   - click `edit connection` under network in tool bar
-  - make sure `eth0` exists under Ethernet
+  - make sure `eth0` exists under Ethernet and is connected to
   - click into `eth0`
     - under `IPv6 Settings` tab, set `Method` to `Ignore`
     - under `General` tab, check `Automatically connect to this network when it is available` and  `All users may connect to this network`
