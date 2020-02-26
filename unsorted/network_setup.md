@@ -1,14 +1,19 @@
-Setup Network between router, DukeVisitor wifi and computer(Ubuntu)
+Network Setup between Router, DukeVisitor Wifi, and Computer(Ubuntu)
 -----
 - install ssh in Ubuntu
   - `sudo apt update`
   - `sudo apt install openssh-server`
-- create ethernet connection interface in `/etc/network/interfaces`
+- create ethernet connection interface in `/etc/network/interfaces`, it may already exist
 `````
 source-directory /etc/network/interfaces.d
 #
 auto lo
 iface lo inet loopback
+#
+auto eth0
+iface eth0 inet static
+address 192.168.1.1
+netmask 255.255.255.0
 `````
 
 - change `/etc/NetworkManager/NetworkManager.conf` into
@@ -16,7 +21,7 @@ iface lo inet loopback
 [main]
 plugins=ifupdown,keyfile
 [ifupdown]
-managed=false
+managed=true
 [device]
 wifi.scan-rand-mac-address=no
 `````
@@ -30,29 +35,24 @@ wifi.scan-rand-mac-address=no
     - under `General` tab, check `Automatically connect to this network when it is available` and  `All users may connect to this network`
     - under `IPv4 Settings` tab, set `Method` to `Shared to other computers`
 - check ifconfig
-  - see if `eth0` is running with correct ip address
+  - see if `eth0` is running with correct ip address `192.168.1.1`
 - set default network connection to `DukeVisitor` wifi
-- check if wifi and eth0 are automatically connected after reboot
-  - if not, try change `/etc/network/interfaces` into
+- change `/etc/network/interfaces` into
 `````
 source-directory /etc/network/interfaces.d
 #
 auto lo
 iface lo inet loopback
-#
-auto eth0
-iface eth0 inet static
-address 192.168.1.1
-netmask 255.255.255.0
 `````
-and change `/etc/Network/Manager/NetworkManager.conf` into
+- change `/etc/NetworkManager/NetworkManager.conf` into
 `````
 [main]
 plugins=ifupdown,keyfile
 [ifupdown]
-managed=true
+managed=false
 [device]
 wifi.scan-rand-mac-address=no
 `````
 and run `sudo service network-manager restart` and `sudo reboot`
-  - if it still doesn't work, then google:)
+- check if wifi and eth0 are automatically connected after reboot
+- if not, then google:)
