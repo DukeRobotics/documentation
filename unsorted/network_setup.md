@@ -53,6 +53,7 @@ managed=false
 [device]
 wifi.scan-rand-mac-address=no
 `````
-and run `sudo service network-manager restart` and `sudo reboot`
+- run `sudo service network-manager restart` 
+- run `sudo reboot`
 - check if wifi and eth0 are automatically connected after reboot
-- if not, then google:)
+  - if not, then google:)
