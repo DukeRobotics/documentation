@@ -17,7 +17,7 @@ This lesson will introduce you into the very basics of ROS. By the end, you will
 - [Turtlesim](http://wiki.ros.org/turtlesim)
 
 ## Notes
-- Before running ros commands, you need to run `source /opt/ros/kinetic/setup.bash` inside the container. This will set up your environment to run ROS commands, and has to be run in every new terminal
-- The version of ROS you are using is kinetic
+- Before running ros commands, you need to run `source /opt/ros/melodic/setup.bash` inside the container. This will set up your environment to run ROS commands, and has to be run in every new terminal
+- The version of ROS you are using is melodic
 - If you are done with roscore, hit `ctrl-c` to exit the command
 - Whenever you want to run ROS commands, you need to be in the container. This means that if you create a new terminal, you have to ssh into the docker container you are using

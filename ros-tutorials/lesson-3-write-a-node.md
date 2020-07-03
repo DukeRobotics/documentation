@@ -25,6 +25,8 @@ If you have experience coding in another language, feel free to proceed as Pytho
 - [Publisher & Subscriber](http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28python%29)
 - [Catkin Tools](https://catkin-tools.readthedocs.io/en/latest/index.html)
    - [Quickstart](https://catkin-tools.readthedocs.io/en/latest/quick_start.html) to initialize new workspace
+- [Video tutorial #1](https://youtu.be/4Lifb9Cg_9w)
+- [Video tutorial #2](https://youtu.be/D7ISrmszozk)
 
 ## Notes
 - You may want to run the docker container using a mount version of the `docker run` command to save your files (remember the [Docker Intro](https://github.com/DukeRobotics/documentation/blob/master/docker/README.md))

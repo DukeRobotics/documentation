@@ -12,6 +12,7 @@ To run ROS, we will be using Docker. This is a software that allows you to run p
 * [Windows (Home)](https://docs.docker.com/toolbox/toolbox_install_windows/)
 * [Windows (Other)](https://docs.docker.com/docker-for-windows/install/)
 * Which Windows do I have? Start > type "PC Info" > note if you have Windows 10 Home, Pro, Education, etc.
+    *Note: the docker version for Windows non-home (docker for windows) is better supported than docker toolbox. Duke provides Windows 10 Education edition to students for free, which works with the docker for windows. [Avalable here with NedID Login](https://software.duke.edu/)*
 
 To learn more, read [this short tutorial](https://docs.docker.com/get-started/).
 
