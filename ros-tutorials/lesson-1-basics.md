@@ -16,6 +16,8 @@ This lesson will introduce you into the very basics of ROS. By the end, you will
 - [Understanding ROS Nodes](http://wiki.ros.org/ROS/Tutorials/UnderstandingNodes)
 - [Turtlesim](http://wiki.ros.org/turtlesim)
 
+**Important:** Run `apt-get update` before attempting to install tutorial packages
+
 ## Notes
 - Before running ros commands, you need to run `source /opt/ros/melodic/setup.bash` inside the container. This will set up your environment to run ROS commands, and has to be run in every new terminal
 - The version of ROS you are using is melodic
