@@ -9,10 +9,10 @@ Before continuing, if you have not used the command line before, complete this s
 To run ROS, we will be using Docker. This is a software that allows you to run programs inside an isolated environment. This means that you do not need to download anything but the docker client, and the particular image we will be using. First, download the appropriate docker client:
 
 * [Mac](https://docs.docker.com/docker-for-mac/install/)
-* [Windows (Home)](https://docs.docker.com/toolbox/toolbox_install_windows/)
+* [Windows (Home)](https://docs.docker.com/docker-for-windows/install-windows-home/)
 * [Windows (Other)](https://docs.docker.com/docker-for-windows/install/)
 * Which Windows do I have? Start > type "PC Info" > note if you have Windows 10 Home, Pro, Education, etc.
-    *Note: the docker version for Windows non-home (docker for windows) is better supported than docker toolbox. Duke provides Windows 10 Education edition to students for free, which works with the docker for windows. [Avalable here with NedID Login](https://software.duke.edu/)*
+    *Note: the docker version for Windows non-home is easier to install than docker desktop for Windows 10 Home. Duke provides Windows 10 Education edition to students for free, which works with the docker for windows. [Avalable here with NedID Login](https://software.duke.edu/)  If you are planning to stick with Home, make sure you are fully updated and have WSL 2 enabled (follow the tutorial)*
 
 To learn more, read [this short tutorial](https://docs.docker.com/get-started/).
 
