@@ -21,4 +21,4 @@ By now, you should have a labeled dataset with images and XML label files. If no
 
 If all goes well, your model should produce results on par with the following:
 
-![Image with bounding boxes around start gate and start tick](/assets/gate_detection.png)
+![Image with bounding boxes around start gate and start tick](/cv/assets/gate_detection.png)
