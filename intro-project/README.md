@@ -30,14 +30,14 @@ The digital pins on the Arduino are interfaces for inputting and transmitting "d
 
 We're going to start off by wiring four LEDs to the Arduino. The two front LEDs should turn on if the rover is moving forward, and the two back LEDs should turn on if the rover is moving backward. 
 
-To set the moving state (forward/backward), consider creating a variable inside of the code that has set values for stopped, moving forward, and moving backward. This may come in handy later when we wire up some motors to the rover.
+To represent the moving state (forward/backward), consider creating a variable inside of the code that has set values for stopped, moving forward, and moving backward. This may come in handy later when we wire up some motors to the rover.
 
 
 ## Making the Rover Move
 
 ### Background
 
-To allow our rover to "move", we need to attach and wire motors to the Arduino. (It won't actually move on the screen - we'll just make some motors spin.) However, we won't directly connect them to the Arduino digital pins. Instead, we'll connect them to an H-bridge Motor Controller. The digital pins on the Arduino can't supply enough current to run the motors, which is why we have to take this intermediary step. 
+To allow our rover to "move", we need to attach and wire motors to the Arduino. (It won't actually move on the screen - we'll just make some motors spin.) However, we won't directly connect them to the Arduino digital pins. If we only wanted to move in a single direction, we could use a simple transistor. Instead, because we want bi-directional movement, we'll connect them to an H-bridge Motor Controller. The digital pins on the Arduino can't supply enough current to run the motors, which is why we have to take this intermediary step. 
 
 https://create.arduino.cc/projecthub/electropeak/the-beginner-s-guide-to-control-motors-by-arduino-and-l293d-139307 has more information on how the H-bridge and motors work.
 
@@ -49,13 +49,13 @@ For more information on how to wire the gearmotors and H-Bridge, visit https://l
 ## Detecting and Avoiding Obstacles
 
 ### Background
-Currently, our rover has no means of collecting data and making decisions about it's surrounding environment. We want the rover to move independently; it should be able to avoid any obstacles that come in its path. To do this, we'll use ultrasonic sensors that can determine the distance of objects in front of the rover.
+Currently, our rover has no means of collecting data and making decisions about its surrounding environment. We want the rover to move independently; it should be able to avoid any obstacles that come in its path. To do this, we'll use ultrasonic sensors that can determine the distance of objects in front of and behind the rover.
 
 The Ping Ultrasonic Sensor works by sending out bursts of ultrasound and waiting for an echo. Once an echo is detected, it determines the distance from an object using the known speed of sound and echo time. The shorter it takes for an echo to return, the closer the object is to the sensor. (Fun fact: this is the same way [bats navigate](https://animals.howstuffworks.com/mammals/bat2.htm).)
 
 ### Task
 
-Wire two ultrasonic sensors to the rover, one in the front and one in the back. When an object comes "close" to either side of the rover, the motors should begin to move in the opposite direction. For instance, if an object comes close to the front sensor, then the rover should move backwards. If there isn't an object near either sensor, then the robot should move forward.
+Wire two ultrasonic sensors to the rover, one in the front and one in the back. When an object comes "close" to either side of the rover, the motors should begin to move in the opposite direction. For instance, if an object comes close to the front sensor, then the rover should move backwards. If there isn't an object near either sensor, then the robot should move forward. If there are objects near both the front and the back, then the robot should stop.
 
 For starter code and more information on connecting ultrasonic sensors, visit https://www.arduino.cc/en/tutorial/ping.
 
@@ -66,8 +66,8 @@ Now that our rover can move independently, we can focus on adding more sensors t
 For more information on how to wire and interpret the output from a temperature sensor, visit https://learn.adafruit.com/tmp36-temperature-sensor/using-a-temp-sensor.
 
 ### Task
-Wire a temperature sensor and print the ambient temperature to the serial monitor. To view the serial monitor, open the code tab in TinkerCAD and press the Serial Monitor button at the bottom of the screen. Make sure that the temperature readout in the Serial Monitor matches its actual setting to +-1 degree.
+Wire a temperature sensor and print the ambient temperature to the serial monitor. To view the serial monitor, open the code tab in TinkerCAD and press the Serial Monitor button at the bottom of the screen. Make sure that the temperature readout in the Serial Monitor matches its actual setting to +-1 degree (Celsius).
 
 ## Conclusion
 
-You're done! You've made a rover worthy of navigating the surface of Mars (kinda). Let one of the facilitators know, but in the meantime, feel free to help other people in your group.
+You're done! You've made a rover worthy of navigating the surface of Mars (kinda). Let one of the subteam leads know, but in the meantime, feel free to help other people in your group.
