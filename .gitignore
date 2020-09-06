@@ -2,18 +2,14 @@
 *.swp
 *.swo
 
-
 # Python
 *.pyc
 
 # ROS/Catkin
-*/catkin_ws/.catkin_tools
-*/catkin_ws/build
-*/catkin_ws/devel
-*/catkin_ws/logs
-
-# ROS_Serial
-catkin_ws/src/offboard_comms/ros_lib
+**/catkin_ws/.catkin_tools
+**/catkin_ws/build
+**/catkin_ws/devel
+**/catkin_ws/logs
 
 # PyCharm/IntelliJ
 .idea
