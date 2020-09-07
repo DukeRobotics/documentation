@@ -1,4 +1,3 @@
-
 # Jetson Setup
 
 ## Introduction
@@ -49,5 +48,3 @@ The Jetson will then reboot once it finishes flashing. Additional packages like 
 [https://docs.nvidia.com/sdk-manager/install-with-sdkm-jetson/index.html](https://docs.nvidia.com/sdk-manager/install-with-sdkm-jetson/index.html)
 
 [https://devtalk.nvidia.com/default/topic/1027143/orbitty-carrier-and-jetpack-3-1/](https://devtalk.nvidia.com/default/topic/1027143/orbitty-carrier-and-jetpack-3-1/)
-
-    
