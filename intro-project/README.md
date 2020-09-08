@@ -66,7 +66,7 @@ Now that our rover can move independently, we can focus on adding more sensors t
 For more information on how to wire and interpret the output from a temperature sensor, visit https://learn.adafruit.com/tmp36-temperature-sensor/using-a-temp-sensor.
 
 ### Task
-Wire a temperature sensor and print the ambient temperature to the serial monitor. To view the serial monitor, open the code tab in TinkerCAD and press the Serial Monitor button at the bottom of the screen. Make sure that the temperature readout in the Serial Monitor matches its actual setting to +-1 degree (Celsius).
+Wire a temperature sensor and print the ambient temperature to the serial monitor. To view the serial monitor, open the code tab in TinkerCAD and press the Serial Monitor button at the bottom of the screen. Make sure that the temperature readout in the Serial Monitor matches its actual setting to +/- 1 degree (Celsius).
 
 ## Conclusion
 
