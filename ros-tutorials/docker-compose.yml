@@ -1,0 +1,15 @@
+version: "3.3"
+
+services:
+
+  landside:
+    image: dukerobotics/robosub-ros:landside
+    container_name: landside
+    ports:
+      - 2201:2201
+      - 9090:9090
+    tty: true
+    volumes:
+      - type: bind
+        source: ./catkin_ws
+        target: /root/dev/catkin_ws/
