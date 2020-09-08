@@ -26,7 +26,7 @@ This final tutorial will not necessarily provide all the information necessary. 
 ## Notes
 - The starter code's premade package is found in the folder you cloned in Lesson 0, here: `documentation/ros-tutorials/catkin_ws`. There is a Python file in there for you to edit.
     - Inside the container, you can find the package at `~/dev/catkin_ws`.
-    - How does that work? The docker-compose command we had you run in Lesson 0 "mounted" the starter code that is on your computer into the container.
+    - How does that work? The docker-compose command we had you run in Lesson 0 "mounted" the starter code that is on your computer into the container. That means that code changes on your local computer will be reflected in the container, and vice versa.
 - :information_source: When you first open a new terminal inside the container, run the following commands to build and source the package:
     ```bash
     cd ~/dev/catkin_ws       # Go to package

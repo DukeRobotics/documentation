@@ -28,7 +28,7 @@ This lesson will introduce you into the very basics of ROS. By the end, you will
     ```
 - The version of ROS you are using is melodic.
 - If you are done with roscore, hit `ctrl-c` to exit the command.
-- Whenever you want to run ROS commands, you need to be in the container. So if you create a new terminal, you have to SSH into the Docker container you are using.
+- Whenever you want to run ROS commands, you need to be in the container. So if you create a new terminal, you have to SSH into the Docker container you are using. (But you don't need to run docker-compose again since your container is already running.)
 
 ***
 
