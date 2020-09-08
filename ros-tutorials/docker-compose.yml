@@ -7,7 +7,7 @@ services:
     container_name: landside
     ports:
       - 2201:2201
-      - 8080:8080
+      - 9090:9090
     tty: true
     volumes:
       - type: bind

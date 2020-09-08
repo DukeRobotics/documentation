@@ -7,6 +7,7 @@ source /opt/ros/melodic/setup.bash
 
 catkin build
 source devel/setup.bash
+
 set +x
 echo ""
 echo "Now, please run:"

@@ -16,8 +16,7 @@ Download and install the appropriate Docker client:
 * [Windows (Home)](https://docs.docker.com/docker-for-windows/install-windows-home/)
 * [Windows (Pro, Education, etc.)](https://docs.docker.com/docker-for-windows/install/)
 
-:information_source: Which Windows do I have? *Settings > System > About > look at "Edition"*<br>
-:warning: If you have Windows Home, make sure you follow the installation instructions exactly. Instead, we recommend upgrading to Windows Education using [Duke's free student license](https://software.duke.edu), though it is not required.
+:information_source: Which Windows do I have? *Settings > System > About > look at "Edition"*
 
 Once the Docker client is installed, run it like you would any other app on your computer.
 
@@ -41,8 +40,7 @@ Now, we will download and run our Docker image so we can use that isolated envir
 
 Run the following to change directory to the starter code:
 ```bash
-cd documentation/ros-tutorials  # Mac
-cd documentation\ros-tutorials  # Windows
+cd documentation/ros-tutorials
 ```
 
 Then run this (it may take a few minutes to download the image and run the container):

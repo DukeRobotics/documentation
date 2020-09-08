@@ -13,9 +13,8 @@ This final tutorial will not necessarily provide all the information necessary. 
 - **Package**: A folder of nodes, messages, and other files all related to some common goal
 
 ## Goals
-1. Program a node inside that package by editing the premade Python file.
+1. Program a node inside that package by editing the premade Python file. When run, the node should make the turtle move in a square.
     - Hint: You will need to publish something somewhere.
-2. Run this node to make the turtle move in a square.
 
 ## Resources
 - [turtlesim](http://wiki.ros.org/turtlesim)

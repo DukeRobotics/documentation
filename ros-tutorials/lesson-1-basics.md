@@ -1,7 +1,7 @@
 # Lesson 1 - Basics
 
 ## Summary
-This lesson will introduce you into the very basics of ROS. By the end, you will know how to start ROS and run the turtle simulation. Before starting, you should take a few minutes and just read/watch videos about ROS in general, just so that you have a general understanding of its uses.
+This lesson will introduce you into the very basics of ROS. By the end, you will know how to start ROS and run the turtle simulation. Before starting, you should take a few minutes and just watch videos or read about ROS in general, just so that you have a general understanding of its uses.
 
 ## Vocab
 - **ROS**: Robot Operating System, the software we are learning about
@@ -22,9 +22,10 @@ This lesson will introduce you into the very basics of ROS. By the end, you will
     source /opt/ros/melodic/setup.bash
     ```
     inside the container. This will set up your environment to run ROS commands, and has to be run in every new terminal.
-- :information_source: Run this command inside the container to install the tutorial packages:
+- :information_source: Run these two commands inside the container to install the tutorial packages:
     ```bash
-    sudo apt-get update && sudo apt-get install ros-melodic-ros-tutorials
+    apt update
+    apt install ros-melodic-ros-tutorials
     ```
 - The version of ROS you are using is melodic.
 - If you are done with roscore, hit `ctrl-c` to exit the command.
