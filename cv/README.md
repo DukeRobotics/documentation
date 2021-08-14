@@ -21,5 +21,6 @@ The general process is as follows:
 
 ______________________________________________________________________________
 [Github Location](https://github.com/DukeRobotics/robosub-ros/tree/master/onboard/catkin_ws/src/cv)
+
 Look in the folders for information on how to do these tasks in more detail.
 
