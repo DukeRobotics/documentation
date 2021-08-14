@@ -14,12 +14,12 @@ Stereovision refers to the process of determining depth information for an image
 The general process is as follows:
 
 1. Create [calibration images](https://drive.google.com/drive/folders/1r3TcvJ9Vl_IRpzWQOqtCldVhNTHVJgFU) (such as by photographing checkerboard), preferrably in a similar environment to where the robot will operate.
-2. Use the aforementioned images to calibrate depth calculation (generate remapping matrices). [an attempt from last year] (https://colab.research.google.com/drive/10h8D7kE5-hSTv8K-LvXY2ijnBxIu-b-V)
+2. Use the aforementioned images to calibrate depth calculation (generate remapping matrices). [an attempt from last year](https://colab.research.google.com/drive/10h8D7kE5-hSTv8K-LvXY2ijnBxIu-b-V)
 3. Test the accuracy of depth calculations using the generated matrices
 4. Account for issues such as noise
 5. Integrate the model with the work of other teams.
 
 ______________________________________________________________________________
-[Github Location] (https://github.com/DukeRobotics/robosub-ros/tree/master/onboard/catkin_ws/src/cv)
+[Github Location](https://github.com/DukeRobotics/robosub-ros/tree/master/onboard/catkin_ws/src/cv)
 Look in the folders for information on how to do these tasks in more detail.
 
