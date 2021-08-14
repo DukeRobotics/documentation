@@ -1,11 +1,11 @@
 # Computer Vision
 
-##Image Detection
+## Image Detection
 The general process for image detection via machine learning is as follows:
 
-1. Divide the frames from the source video.
-2. Unzip the folder containing the images.
-3. Use labelImg on each of these creating bounding boxes for any desired objects.
+1. Divide the frames from the source video. [Video Examples](https://drive.google.com/drive/folders/1BP-wbPu_gobxFj8zPLdBdgE1Iy7eikwx)
+2. Unzip the folder containing the images. [Image Examples](https://drive.google.com/drive/folders/156_NqoKKZ5KHTL7POvCyuxTZyWQYFGwM)
+3. Use [labelImg](https://pypi.org/project/labelImg/) on each of these creating bounding boxes for any desired objects.
 4. Using the labelled images from before, train a model to detect the images.
 5. Upload the model to docker for later use.
 
