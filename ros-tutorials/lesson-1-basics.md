@@ -20,6 +20,7 @@ This lesson will introduce you into the very basics of ROS. By the end, you will
 - :information_source: Before running ROS commands, you need to run
     ```bash
     source /opt/ros/noetic/setup.bash
+    unset ROS_MASTER_URI
     ```
     inside the container. This will set up your environment to run ROS commands, and has to be run in every new terminal.
 - :information_source: Run these two commands inside the container to install the tutorial packages:
