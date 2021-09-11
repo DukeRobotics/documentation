@@ -19,15 +19,15 @@ This lesson will introduce you into the very basics of ROS. By the end, you will
 ## Notes
 - :information_source: Before running ROS commands, you need to run
     ```bash
-    source /opt/ros/melodic/setup.bash
+    source /opt/ros/noetic/setup.bash
     ```
     inside the container. This will set up your environment to run ROS commands, and has to be run in every new terminal.
 - :information_source: Run these two commands inside the container to install the tutorial packages:
     ```bash
     apt update
-    apt install ros-melodic-ros-tutorials
+    apt install ros-noetic-ros-tutorials
     ```
-- The version of ROS you are using is melodic.
+- The version of ROS you are using is noetic.
 - If you are done with roscore, hit `ctrl-c` to exit the command.
 - Whenever you want to run ROS commands, you need to be in the container. So if you create a new terminal, you have to SSH into the Docker container you are using. (But you don't need to run docker-compose again since your container is already running.)
 
