@@ -3,7 +3,7 @@
 
 set -ex
 
-source /opt/ros/melodic/setup.bash
+source /opt/ros/noetic/setup.bash
 
 catkin build
 source devel/setup.bash
