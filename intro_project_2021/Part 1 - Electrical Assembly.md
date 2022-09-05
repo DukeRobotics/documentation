@@ -7,14 +7,7 @@
   * Requires a constant voltage to be supplied.
 * **Portable Battery:** Holds the batteries.
 * **Motor Controller:** Provides power for the motors.
-
-## Tools
-
-* **Wire Strippers:** Used to remove the rubber casing of wires.
-* **Wire Cutters:** Used to cut wires.
-* **Soldering Iron:** Used to make connections between wires and other electrical components.
-* **Power Supply:** Can provide voltage at either a constant voltage or current.
-* **Multimeter:** A versatile tool that can measure voltage, current, connectivity, and has many other functions
+* **Dupont Wires:** For communication between the Pi and the motors.
 
 # Part 1 - Electrical Assembly
 
@@ -47,17 +40,17 @@ In general, when writing a python script import statements go at the top of your
 
 To repeat a section of code a fixed number of times, a structure called a [**for loop**](https://www.w3schools.com/python/python_for_loops.asp) is used. To repeat a section of code forever, a structure called a [**while loop**](https://www.w3schools.com/python/python_while_loops.asp) is used. For both of these loops, you must put a delay somewhere within the loop (ask for help with this if you are not sure how).
 
-// Potentially need to check which pins are PWM and what kind of motor to use from gpiozero
+Make sure that you use PWM pins on the Pi for to connect to the motors.
 
 ## Uploading your code
-//need to check actual rasberry pi's first
+
+Ask us for assistance in uploading your code to the microSD drives.
 
 ## Steps
 
 1. Read through [gpiozero library](https://gpiozero.readthedocs.io/en/stable/index.html) to understand and pick out which functions you will need
 2. Code LED to blink 2 times a second for 6 seconds
 3. Code robot to drive in square shape 1 time
-4. Check your code for any unnecessary repetitions or inefficiencies (ask for help with this)
 
 # Schedule
 
@@ -76,13 +69,3 @@ To repeat a section of code a fixed number of times, a structure called a [**for
     7:45-8:15 LED flashing using script and installed on pi
     8:15-8:50 Robot moves in a square
     8:50-9:00 Wrap Up, Clean Up, tell them to install stuff for ros tutorial, etc...
-    
-# What to do on campus
-* Find finalized parts list with quantities
-* Figure out comprehensive assembly guide using parts and electrical schematic
-* Ensure all parts that need to be soldered/constructed are done before projects begin
-* Install software on all pis
-    * raspian, gpiozero, method to upload code, maybe have it autorun?
-* Test all hardware
-* Make master sd card with functional software for both LED and motor testing
-* Finalize documentation with new information
