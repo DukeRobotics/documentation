@@ -12,7 +12,7 @@ Some of our software, such as Docker or simulation software, may run slowly on a
 
 To simplify the installation steps for Windows 10 and 11 users, we have created an installation script that automates the installation of several applications.
 - Before running this script, **[install `winget` on your computer](https://aka.ms/getwinget)**. `winget` is a package manager made by Microsoft to manage applications for Windows.
-- Once `winget` is installed, navigate to [the script file on GitHub](https://raw.githubusercontent.com/DukeRobotics/documentation/master/ros-tutorials/winget-ros-configuration.ps1). Right click and select *"Save page as"*. Save the file somewhere with the default name and extension. Open the file location in File Explorer, right-click on the file and select *"Run with Powershell"*.
+- Once `winget` is installed, right-clock on **[this link]**(https://raw.githubusercontent.com/DukeRobotics/documentation/master/ros-tutorials/winget-ros-configuration.ps1) and select *"Save link as"*. Save the file somewhere with the default name and extension. Open the file location in File Explorer, right-click on the file and select *"Run with Powershell"*.
     - You may be prompted to ask if you trust this file to run. Please permit the file to execute. If you are unsure, you may look at the source code yourself and see what it does! You have succeeded when a blue terminal window displays a loading bar.
 - Now allow the script to execute! **Be sure to watch your computer, as you may be prompted to accept license agreements or give administrator access.** The script will install the following programs:
     - Docker Desktop
