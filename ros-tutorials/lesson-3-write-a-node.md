@@ -34,3 +34,7 @@ This final tutorial will not necessarily provide all the information necessary. 
     ```
     - If you're curious, here's more about [packages](http://wiki.ros.org/ROS/Tutorials/CreatingPackage), the [catkin build system](https://catkin-tools.readthedocs.io/en/latest/index.html), and [quickstart](https://catkin-tools.readthedocs.io/en/latest/quick_start.html).
 - You will not be able to use the code in the 'Publisher and Subscriber' tutorial exactly as is, but it's a good starting point. Same with the video tutorials.
+
+***
+
+Wicked! If you are interested in the task planning subteam, proceed to [Lesson 4 - SMACH](lesson-4-smach.md). If not, this concludes your ROS education, go join your team and see what work they have for you.
