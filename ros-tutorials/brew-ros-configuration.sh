@@ -8,6 +8,7 @@
 # - kitty
 # - Slack
 # - Python3
+# - Tabby
 # The script also gives the option to install VS Code.
 
 # Install brew
@@ -30,6 +31,9 @@ brew install --cask slack
 
 # Install Python3
 brew install python3
+
+# Install Tabby
+brew install --cask tabby
 
 # Install VS Code
 echo "Do you want to install VS Code? (y/n)"
