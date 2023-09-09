@@ -19,3 +19,8 @@ brew install --cask slack
 brew install python@3.11
 brew install --cask xquartz
 
+# if user wants to install vscode, install vscode
+read -p "Do you want to install vscode? (y/n): " install_vscode
+if [ "$install_vscode" = "y" ]; then
+    brew install --cask visual-studio-code
+fi
