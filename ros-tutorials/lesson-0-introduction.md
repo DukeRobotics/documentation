@@ -110,7 +110,7 @@ Now you're inside the container, isolated from the rest of your computer. This e
 
 ## Command Line
 
-Before continuing, if you have never used the Unix/Bash command line (Terminal in MacOS or Linux), complete [this short tutorial](https://www.vikingcodeschool.com/web-development-basics/a-command-line-crash-course).
+Before continuing, if you have never used the Unix/Bash command line (Terminal in MacOS or Linux), [this page](https://cs.colby.edu/maxwell/courses/tutorials/terminal/) provides a good reference.
 
 ***
 
