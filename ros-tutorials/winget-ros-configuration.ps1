@@ -6,10 +6,12 @@
 # - Python3
 # The script also gives the option to install VS Code.
 
-# install winget if not already installed
+# Set to exit if error occurs
+$ErrorActionPreference = "Stop"
 
 Write-Host "Beginning Duke Robotics Software Install..." -ForegroundColor Yellow
 
+# install winget if not already installed
 if (-not(Get-Command winget -ErrorAction SilentlyContinue)){
     # print message
     Write-Host "WinGet is not installed. Installing WinGet..." -ForegroundColor Yellow

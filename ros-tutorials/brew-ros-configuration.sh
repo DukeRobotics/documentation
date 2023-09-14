@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Set to exit if error occurs
+set -e
+
 echo "Beginning Duke Robotics Software Install..."
 
 # if homebrew is not installed, install homebrew
