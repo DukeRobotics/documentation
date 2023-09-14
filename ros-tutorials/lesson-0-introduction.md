@@ -82,7 +82,7 @@ cd documentation/ros-tutorials
 
 Then run this (it may take a few minutes to download the image and run the container):
 ```bash
-docker compose up -d
+docker-compose up -d
 ```
 
 ## Connect to Docker via SSH

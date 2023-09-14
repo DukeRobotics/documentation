@@ -12,6 +12,7 @@ if ! command -v brew &> /dev/null; then
 fi
 
 brew install docker
+brew install docker-compose
 brew install git
 brew install --cask github
 brew install --cask slack
