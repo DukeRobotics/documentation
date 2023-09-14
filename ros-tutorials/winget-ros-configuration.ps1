@@ -7,7 +7,12 @@
 # The script also gives the option to install VS Code.
 
 # install winget if not already installed
+
+Write-Host "Beginning Duke Robotics Software Install..." -ForegroundColor Yellow
+
 if (-not(Get-Command winget -ErrorAction SilentlyContinue)){
+    # print message
+    Write-Host "WinGet is not installed. Installing WinGet..." -ForegroundColor Yellow
     # $progressPreference = 'silentlyContinue'
     # Write-Information "Downloading WinGet and its dependencies..."
     # Invoke-WebRequest -Uri https://aka.ms/getwinget -OutFile Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle

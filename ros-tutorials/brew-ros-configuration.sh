@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "Beginning Duke Robotics Software Install..."
+
 # if homebrew is not installed, install homebrew
 if ! command -v brew &> /dev/null; then
     echo "Homebrew is not installed, installing homebrew..."
